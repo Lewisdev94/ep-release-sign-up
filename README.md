@@ -15,4 +15,4 @@ Site is live [here](https://lewisdev94.github.io/ep-release-signup/), hosted on 
 
 Built by Lewis Chandler - [Lewisdev94](https://github.com/Lewisdev94)
 
-Designed by Ola Mongrid
+Designed by Ola
