@@ -4,7 +4,7 @@ The EP release email sign up page is a fully responsive to provide basic informa
 
 ## Live Site
 
-Site is live [here](https://lewisdev94.github.io/ep-release-signup/), hosted on GitHub Pages.
+Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on GitHub Pages.
 
 ## Technologies
 
