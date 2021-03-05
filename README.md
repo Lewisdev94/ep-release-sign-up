@@ -14,8 +14,8 @@ Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on
 
 - Add a cookie policy and accept/reject modal
 - Send the data to a server
-- ~~Add favicon~~ Added the album image as a favicon - 05/03/2021.
-- Remove unneeded Google Fonts from HEAD
+- ~~Add favicon.~~ Added the album image as a favicon - 05/03/2021.
+- ~~Remove unneeded Google Fonts from HEAD.~~ - 05/03/2021.
 
 ## Creators
 
