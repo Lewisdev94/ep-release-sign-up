@@ -19,8 +19,6 @@ h2 {
   margin: 0;
 }
 
-/* IMAGES */
-
 /* LAYOUT */
 
 /* ALBUM COVER */
@@ -38,7 +36,6 @@ h2 {
 #album::before {
   content: '';
   opacity: 0.5;
-
   background-image: url(../images/tcicg_ep_cover.jpg);
   position: fixed;
   left: 0;
@@ -60,7 +57,6 @@ h2 {
 
 #album-cover-img {
   width: 100%;
-  /* display: block; */
   max-width: 400px;
   height: auto;
   margin: auto;
@@ -174,6 +170,9 @@ label:empty::before {
 
 #cookie-container {
   background: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #cookie-modal {
@@ -221,7 +220,7 @@ label:empty::before {
 }
 
 /* MEDIA QUERY */
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   #container {
     display: flex;
     flex-direction: row;

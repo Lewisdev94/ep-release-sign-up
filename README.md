@@ -10,6 +10,12 @@ Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on
 
 - HTML, CSS, JavaScript
 
+## Future Improvements
+
+- Add a cookie policy and accept/reject modal
+- Send the data to a server
+- Add favicon
+- Remove unneeded Google Fonts from HEAD
 
 ## Creators
 

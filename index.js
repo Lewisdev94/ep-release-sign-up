@@ -48,7 +48,7 @@ emailCollectorForm.addEventListener('submit', event => {
   let updatedHtmlContent = `
         <h2>Thanks, ${userFirstName}.</h2>
 
-        <p>We'll' let you know when it's on Spotify.</p>
+        <p>We'll let you know when it's on Spotify.</p>
 
     `
 
