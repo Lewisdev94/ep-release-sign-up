@@ -15,7 +15,7 @@ let nameInput = document.getElementById('name-input')
 let emailInput = document.getElementById('email-input')
 
 nameInput.addEventListener('focus', function () {
-  nameLabel.textContent = 'Your First Name'
+  nameLabel.textContent = 'Your Name'
 })
 
 nameInput.addEventListener('focusout', function () {
@@ -23,7 +23,7 @@ nameInput.addEventListener('focusout', function () {
 })
 
 emailInput.addEventListener('focus', function () {
-  emailLabel.textContent = 'Your Email Address'
+  emailLabel.textContent = 'Your Email'
 })
 
 emailInput.addEventListener('focusout', function () {
@@ -43,19 +43,15 @@ emailCollectorForm.addEventListener('submit', event => {
   signUpSuccess.style.display = 'flex'
   let ourFormData = new FormData(event.target)
   let userFirstName = ourFormData.get('firstName')
-  let userEmailAddress = ourFormData.get('emailAddress')
+  // let userEmailAddress = ourFormData.get('emailAddress')
 
   let updatedHtmlContent = `
-        <h2>Thanks, ${userFirstName}!</h2>
+        <h2>Thanks, ${userFirstName}.</h2>
 
-        <p>We will let you know when it's released on Spotify!</p>
+        <p>We'll' let you know when it's on Spotify.</p>
 
     `
 
   let updatedContentContainer = document.getElementById('sign-up-success')
   updatedContentContainer.innerHTML = updatedHtmlContent
 })
-
-{
-  /* <p class="fine-print">Keep an eye on your ${userEmailAddress} inbox.</p> */
-}

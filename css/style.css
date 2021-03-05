@@ -219,3 +219,26 @@ label:empty::before {
   background-color: #f98f21;
   color: #383f51;
 }
+
+/* MEDIA QUERY */
+@media (min-width: 700px) {
+  #container {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.125rem;
+  }
+
+  #album,
+  #sign-up-form,
+  #sign-up-success {
+    width: 50%;
+    min-height: 100vh; /* min-height will prevent things falling off the bottom */
+  }
+
+  #sign-up-form,
+  #sing-up-success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
