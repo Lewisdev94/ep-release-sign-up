@@ -38,11 +38,10 @@ let signUpSuccess = document.getElementById('sign-up-success')
 let signUpBtn = document.getElementById('submitButton')
 
 emailCollectorForm.addEventListener('submit', event => {
-  event.preventDefault()
   signUpSection.style.display = 'none'
   signUpSuccess.style.display = 'flex'
   let ourFormData = new FormData(event.target)
-  let userFirstName = ourFormData.get('firstName')
+  let userFirstName = ourFormData.get('FNAME')
   // let userEmailAddress = ourFormData.get('emailAddress')
 
   let updatedHtmlContent = `
