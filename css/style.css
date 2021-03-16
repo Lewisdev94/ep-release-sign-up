@@ -87,8 +87,11 @@ h2 {
   flex-direction: column;
   align-items: center;
   background: #f7eaf8 80%;
-
   padding: 1em 0;
+}
+
+#sign-up-form > h2 {
+  margin-top: 0.75rem;
 }
 
 #sign-up-form > h2,
@@ -103,7 +106,11 @@ p {
 #sign-up-form > p {
   font-weight: 400;
   margin-bottom: 1.125em;
-  line-height: 24px;
+  line-height: 30px;
+}
+#formErrorMsg {
+  margin: 0.5rem auto;
+  font-size: 1rem;
 }
 
 .email-collector {
@@ -137,6 +144,13 @@ input:focus::placeholder {
   transition: ease 500ms;
   color: #383f51;
 }
+
+#Email-Collector .btn:hover,
+#Email-Collector .btn:focus {
+  appearance: button;
+  transition: none;
+}
+
 #Email-Collector:valid .btn {
   background: #3e1250;
   color: #fff;

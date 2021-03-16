@@ -3,6 +3,11 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Company I Can Get - EP</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -35,14 +40,8 @@
           it’s live.
         </p>
 
-        <form
-          id="Email-Collector"
-          class="email-collector"
-          action="https://gmail.us1.list-manage.com/subscribe/post?u=047627b66c958da931e184a22&amp;id=99e0cd9d01"
-          method="POST"
-          target="dummy-iframe"
-        >
-          <input id="name-input" name="FNAME" type="text" placeholder="Your Name" required />
+        <form id="Email-Collector" class="email-collector">
+          <input id="name-input" name="FNAME" type="text" placeholder="Your Name" required tabindex="1" />
           <label id="name-label" for="FNAME"></label>
           <input
             id="email-input"
@@ -51,9 +50,13 @@
             type="email"
             pattern="[a-zA-Z0-9.-_-]{1,}@[a-zA-Z0-9.-]{1,}[.]{1}[a-zA-Z0-9]{1,}"
             required
+            tabindex="2"
           />
           <label id="email-label" for="EMAIL"></label>
-          <button id="submitButton" class="btn btn-primary" type="submit">Sign me up</button>
+          <button id="submitButton" class="btn btn-primary" type="submit" tabindex="3">
+            Sign me up
+          </button>
+          <p id="formErrorMsg"></p>
         </form>
       </div>
     </div>
@@ -66,7 +69,6 @@
         </di>
       </div>
     </div>
-    <iframe name="dummy-iframe" id="dummyframe" style="display: none;"></iframe>
 
     <script src="index.js"></script>
   </body>
