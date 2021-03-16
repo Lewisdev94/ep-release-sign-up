@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
 
 function errorFunc (formPass, reason) {
   if (reason === 'invalid') {
-    errorMsg.innerText = `Hmm, that email appears to be invalid. Is it the correct?`
+    errorMsg.innerText = `That email appears to be invalid.`
     console.log(`The email address submission was ${reason}.`)
   } else if (reason === 'already') {
     errorMsg.innerText = `You are already subscribed!`
