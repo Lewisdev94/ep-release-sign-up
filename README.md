@@ -14,10 +14,12 @@ Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on
 
 - Add a cookie policy and accept/reject modal
 - ~~Send the data to a server~~. 
-  -Email and name is sent to Mailchimp and a welcome email is sent. 15/03/2021.
-  -Mailchimp now returns error messaging. Error messaging is shown in the HTML to the user. 16/03/2021.
-- ~~Add favicon~~. Added the album image as a favicon - 05/03/2021.
-- ~~Remove unneeded Google Fonts from HEAD~~. - 05/03/2021.
+  - Email and name is sent to Mailchimp and a welcome email is sent. 15/03/2021.
+  - Mailchimp now returns error messaging. Error messaging is shown in the HTML to the user. 16/03/2021.
+- ~~Add favicon~~. 
+  - Added the album image as a favicon - 05/03/2021.
+- ~~Remove unneeded Google Fonts from HEAD~~. 
+  - Removed unneeded fonts. 05/03/2021.
 
 ## Creators
 
