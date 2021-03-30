@@ -14,11 +14,19 @@ Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on
 
 - HTML, CSS, JavaScript
 
+## Current Features
+
+- Email sign up with confirmation email
+- Error messaging to show the user of any reasons why sign up is unsuccessful
+- Input field validation
+- Responsive design 
+
 ## Future Improvements
 
 - Add a cookie policy and accept/reject modal
 - Prevent error messaging from shifting page layout
 - Remove API key from client side using a Netlify function
+- Aria labeling
 
 
 ## Completed Improvements
