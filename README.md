@@ -1,6 +1,6 @@
 # EP Release Email Sign Up
 
-The EP release email sign up page is a fully responsive to provide basic information about an upcoming music release. Can also allow the user to join a mailing list to be notified of release.
+The EP release email sign up page provides basic information about an upcoming music release. It allows the user to join a mailing list to be notified of release.
 
 ## Live Site
 
@@ -18,6 +18,7 @@ Site is live [here](https://lewisdev94.github.io/ep-release-sign-up/), hosted on
 
 - Add a cookie policy and accept/reject modal
 - Prevent error messaging from shifting page layout
+- Remove API key from client side using a Netlify function
 
 
 ## Completed Improvements
