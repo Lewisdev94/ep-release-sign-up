@@ -81,7 +81,7 @@ function errorFunc (formPass, reason) {
     console.log(`The user is ${reason} subscribed.`)
   } else if (reason === 'unknown') {
     errorMsg.innerText = `Unknown error has occurred.`
-    console.log('An ${reason} has occurred.')
+    console.log(`An ${reason} has occurred.`)
   }
 }
 
